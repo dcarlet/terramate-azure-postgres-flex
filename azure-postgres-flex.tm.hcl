@@ -39,7 +39,7 @@ generate_hcl "_terramate_generated_azure_postgres_flexible_server.tf" {
     # We are invoking our local wrapper to the module
     # to also demonstrate terramate orchestration capabilities
     module "azure_postgres_flex" {
-        source = "./azure-postgres-flex"
+        source = "./terramate-azure-postgres-flex"
         service_name = global.service_name
         target_rg = global.default_rg
         target_vnet = global.common_vnet_name
