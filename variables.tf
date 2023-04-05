@@ -1,10 +1,10 @@
 ##########################################
-# Postgres-specific variables.
+# Postgres_specific variables.
 ##########################################
-variable "flexible-server-subnet" {
+variable "flexible_server_subnet" {
   type    = string
   default = ""
-  description = "The subnet in target-vnet that is delegated to Azure Postgres Flexible Server"
+  description = "The subnet in target_vnet that is delegated to Azure Postgres Flexible Server"
 }
 
 variable "pg_server_name" {
@@ -51,8 +51,8 @@ variable "postgres_db_name" {
   type = string
 }
 
-variable "extensions-list" {
-  type = list
-  description = "The list of all extensions to install.  Ex: PG_TRGM,BTREE_GIST"
+variable "extensions_list" {
+  type = string
+  description = "The comma separated list of all extensions to install.  Ex: PG_TRGM,BTREE_GIST"
 }
 

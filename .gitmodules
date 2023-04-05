@@ -1,0 +1,3 @@
+[submodule "sys-conf/terramate-system-config"]
+	path = sys-conf/terramate-system-config
+	url = https://github.com/dcarlet/terramate-system-config.git
