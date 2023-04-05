@@ -7,7 +7,7 @@
 ##############################################################################
 # Import our globals
 import {
-  source = "sys-conf/system-config/system-config.tm.hcl"
+  source = "sys-conf/terramate-system-config/system-config.tm.hcl"
 }
 ##############################################################################
 # Defaults for each service account that can be overwritten in stacks below
